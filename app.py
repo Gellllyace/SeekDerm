@@ -8,7 +8,7 @@
 
 # class_names = ['acne', 'atopic_dermatitis', 'normal_skin', 'psoriasis', 'scabies', 'warts']
 # class_titles = {'acne': 'Acne', 'atopic_dermatitis': 'Atopic Dermatitis', 'normal_skin': 'Normal Skin', 'psoriasis': 'Psoriasis', 'scabies': 'Scabies', 'warts': 'Warts'}
-# model = tf.keras.models.load_model('model\FinalModelFinetunedV2.h5')
+# model = tf.keras.models.load_model('models\FinalModelFinetunedV2.h5')
 
 # def preprocess_image(image):
 #     image = tf.image.resize(image, (224, 224))
