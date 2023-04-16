@@ -56,7 +56,7 @@ class_names = ['acne', 'atopic_dermatitis', 'normal_skin', 'psoriasis', 'scabies
 class_titles = {'acne': 'Acne', 'atopic_dermatitis': 'Atopic Dermatitis', 'normal_skin': 'Normal Skin', 'psoriasis': 'Psoriasis', 'scabies': 'Scabies', 'warts': 'Warts'}
 
 # Load TFLite model
-interpreter = tf.lite.Interpreter(model_path="model\optimized_model.tflite")
+interpreter = tf.lite.Interpreter(model_path="models\optimized_model.tflite")
 interpreter.allocate_tensors()
 input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
